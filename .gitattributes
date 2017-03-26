@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * text eol=lf
 
 *.png binary
@@ -5,3 +6,6 @@
 *.jpeg binary
 *.woff binary
 *.woff2 binary
+=======
+* text=auto
+>>>>>>> 25b489be2fed97f9ed5cb13e0b59ca42b585501e
