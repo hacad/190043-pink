@@ -11,6 +11,8 @@
     "gulp-postcss": "6.3.0",
     "@htmlacademy/editorconfig-cli": "0.1.x",
     "postcss-calc": "^5.3.1",
+    "postcss-custom-media": "^5.0.1",
+    "postcss-for": "^2.1.1",
     "precss": "1.4.0"
   },
   "scripts": {
