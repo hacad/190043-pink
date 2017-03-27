@@ -46,12 +46,6 @@
     background-position: 0 0, center center;
   }
 
-  &__triangle {
-    position: absolute;
-    top: -1px;
-    width: 100%;
-  }
-
   &::before {
     position: absolute;
     top: 0;
