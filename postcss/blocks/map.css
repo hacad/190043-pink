@@ -48,7 +48,7 @@
 
   &::before {
     position: absolute;
-    top: 0;
+    top: -1px;
 
     content: '';
 
@@ -58,6 +58,7 @@
     background-image: url('../img/bg-triangle-white-footer.svg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: top center;
 
     height: 36px;
 
@@ -66,7 +67,7 @@
     }
 
     @media (--screen-desktop) {
-      height: 165px;
+      height: 163px;
     }
   }
 
