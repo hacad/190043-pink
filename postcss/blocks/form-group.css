@@ -34,6 +34,31 @@
     display: block;
   }
 
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    padding-left: 20px;
+    font-size: $font-size-big;
+    transition: box-shadow .2s;
+  }
+
+  input[type="text"]:hover,
+  input[type="email"]:hover,
+  input[type="tel"]:hover,
+  textarea:hover {
+    box-shadow: 0 0 0 2px $gray-dark;
+    transition: box-shadow .2s;
+  }
+
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="tel"]:focus,
+  textarea:focus {
+    box-shadow: 0 0 0 2px $pink;
+    transition: box-shadow .2s;
+    outline: none;
+  }
+
   &__label {
     margin-left: 20px;
     margin-bottom: 10px;
@@ -59,12 +84,12 @@
       }
 
       @media (--screen-desktop) {
-        margin-top: 15px;
+        margin-top: 17px;
       }
     }
 
     &--name {
-      @media(--screen-desktop) {
+      @media(--screen-tablet) {
         margin-bottom: 0;
       }
     }
@@ -144,32 +169,4 @@
       margin-right: 31px;
     }
   }
-}
-
-input[type="text"],
-input[type="email"],
-input[type="tel"] {
-  padding-left: 20px;
-  transition: box-shadow .2s;
-}
-
-input[type="text"]:hover,
-input[type="email"]:hover,
-input[type="tel"]:hover,
-textarea:hover {
-  box-shadow: 0 0 0 2px $gray-dark;
-  transition: box-shadow .2s;
-}
-
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="tel"]:focus,
-textarea:focus {
-  box-shadow: 0 0 0 2px $pink;
-  transition: box-shadow .2s;
-  outline: none;
-}
-
-textarea {
-  resize: vertical;
 }
