@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Sviatoslav](https://up.htmlacademy.ru/adaptive/10/user/190043).
-* Наставник: `Неизвестно`.
+* [Ссылка на готовый проект](https://hacad.github.io/190043-pink/)
 
 ---
 
